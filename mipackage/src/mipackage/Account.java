@@ -74,4 +74,9 @@ public class Account {
 		this.balance = balance;
 	}
 
+	public class Alex {
+		public String saludo = "HOLAAAA";
+		public String despedida = "ADIOSS";
+	}
+
 }
