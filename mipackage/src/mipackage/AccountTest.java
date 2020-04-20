@@ -19,4 +19,12 @@ class AccountTest {
 		Cantidad.retirar(0);
 		// fail("Not yet implemented");
 	}
+
+	@Test
+	@DisplayName(value = "RETIRAR DINERO DE LA CUENTA")
+	void testComprar() throws Exception {
+		Account Cantidad = new Account(10);
+		Cantidad.retirar(0);
+		// fail("Not yet implemented");
+	}
 }
