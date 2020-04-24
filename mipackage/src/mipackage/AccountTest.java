@@ -27,4 +27,12 @@ class AccountTest {
 		Cantidad.retirar(0);
 		// fail("Not yet implemented");
 	}
+
+	@Test
+	@DisplayName(value = "Balance=0")
+	void testCovid19() throws Exception {
+		Account Balanace = new Account(0);
+		Balanace.retirar(0);
+		// fail("Not yet implemented");
+	}
 }
