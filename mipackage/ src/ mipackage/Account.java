@@ -22,13 +22,13 @@ public class Account {
 		this.setCcc(cuenta);
 	}
 
-	// Método que me devuelve el saldo disponible en cada momento
+	// MÃ©todo que me devuelve el saldo disponible en cada momento
 	public double disponible() {
 		return getBalance();
 	}
 
 	/*
-	 * Método para ingresar cantidades en la cuenta. Modifica el saldo.
+	 * MÃ©todo para ingresar cantidades en la cuenta. Modifica el saldo.
 	 */
 	public void ingresar(double cantidad) throws Exception {
 		if (cantidad < 0)
@@ -77,6 +77,7 @@ public class Account {
 	public class Alex {
 		public String saludo = "HOLAAAA";
 		public String despedida = "ADIOSS";
+		public String bienvenida = "bienvenido";
 	}
 
 }
